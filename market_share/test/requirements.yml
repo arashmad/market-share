@@ -1,0 +1,16 @@
+name: market_share
+
+channels: &id1
+  - conda-forge
+
+dependencies:
+  - python=3.10.*
+  - pip
+  - fastapi
+  - geopandas
+  - httpx
+  - pandas
+  - python-dotenv
+  - python-multipart
+  - shapely
+  - uvicorn
