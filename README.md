@@ -4,13 +4,13 @@
 
 ```shell
 cd /to/project/root
-mamba env create -f test/requirements.yml
+mamba env create -f /market_share/test/requirements.yml
 ```
 
 #### 2. Running service
 
 ```shell
-mamba env activate market-share
+mamba env activate market_share
 python run.py
 ```
 
